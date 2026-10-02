@@ -2,39 +2,43 @@ body {
     margin: 0;
     padding: 40px 20px;
     font-family: 'Montserrat', Arial, sans-serif;
-    /* Сюда вставьте HEX-код из colorhunt */
-    background-color: #FFB4A2;
-    color: #E5989B;
+    background-color: #FFB4A2;       /* персиковый фон всей страницы */
+    color: #3D2C2E;                  /* тёмно-коричневый текст — контрастный */
     min-height: 100vh;
 }
 
 .container {
     max-width: 700px;
     margin: 0 auto;
-    background: #DBE2EF;
+    background: #FFF5F3;             /* почти белая карточка вместо #DBE2EF */
     padding: 40px;
     border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
 h1 {
-    color: #E5989B;
+    color: #B5484C;                  /* тёмно-розовый — читается отлично */
     text-align: center;
+    margin-top: 0;
 }
 
 h2 {
-    color: #9BCEC1;
+    color: #5B9A8B;                  /* тёмно-мятный */
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
+    border-bottom: 2px solid #9BCEC1;
+    padding-bottom: 8px;
 }
 
 a {
-    color: #C5B3D3;
+    color: #7A5DA6;                  /* тёмно-сиреневый */
     text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
 }
 
 a:hover {
-    color: #E5989B;
+    color: #B5484C;
     text-decoration: underline;
 }
 
@@ -44,8 +48,14 @@ ul {
 }
 
 ul li {
-    background: #FFB4A2;
+    background: #FFE3DC;             /* мягкий персиковый — светлее фона body */
     margin: 8px 0;
     padding: 12px 18px;
     border-radius: 10px;
+    color: #3D2C2E;                  /* явно задаём тёмный текст */
+}
+
+p {
+    line-height: 1.7;
+    color: #3D2C2E;
 }
