@@ -4,7 +4,7 @@ body {
     font-family: 'Montserrat', Arial, sans-serif;
     /* Сюда вставьте HEX-код из colorhunt */
     background-color: #FFB4A2;
-    color: #112D4E;
+    color: #E5989B;
     min-height: 100vh;
 }
 
@@ -18,23 +18,23 @@ body {
 }
 
 h1 {
-    color: #112D4E;
+    color: #E5989B;
     text-align: center;
 }
 
 h2 {
-    color: #3F72AF;
+    color: #9BCEC1;
     text-align: center;
     font-weight: 400;
 }
 
 a {
-    color: #3F72AF;
+    color: #C5B3D3;
     text-decoration: none;
 }
 
 a:hover {
-    color: #112D4E;
+    color: #E5989B;
     text-decoration: underline;
 }
 
@@ -44,7 +44,7 @@ ul {
 }
 
 ul li {
-    background: #F9F7F7;
+    background: #FFB4A2;
     margin: 8px 0;
     padding: 12px 18px;
     border-radius: 10px;
