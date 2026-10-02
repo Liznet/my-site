@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сравнение IDE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+            background: #f5f7fa;
+        }
+        details {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        summary {
+            font-size: 1.3em;
+            font-weight: bold;
+            cursor: pointer;
+            padding: 10px;
+            color: #2c3e50;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;   /* выравнивание по центру */
+        }
+        th {
+            background: #a8edea;
+            color: #2c3e50;
+        }
+        tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+    <details open>
+        <summary>Сравнение популярных IDE</summary>
+
+        <table>
+            <tr>
+                <th>IDE</th>
+                <th>Языки</th>
+                <th>Платформы</th>
+                <th>Плюсы</th>
+                <th>Минусы</th>
+            </tr>
+            <tr>
+                <td>VS Code</td>
+                <td>Много (через расширения)</td>
+                <td>Windows, macOS, Linux</td>
+                <td>Лёгкая, много плагинов</td>
+                <td>Требует настройки</td>
+            </tr>
+            <tr>
+                <td>IntelliJ IDEA</td>
+                <td>Java, Kotlin</td>
+                <td>Windows, macOS, Linux</td>
+                <td>Умная, мощный рефакторинг</td>
+                <td>Тяжёлая, платная</td>
+            </tr>
+            <tr>
+                <td>PyCharm</td>
+                <td>Python</td>
+                <td>Windows, macOS, Linux</td>
+                <td>Заточена под Python</td>
+                <td>Ресурсоёмкая</td>
+            </tr>
+            <tr>
+                <td>WebStorm</td>
+                <td>JS, TS</td>
+                <td>Windows, macOS, Linux</td>
+                <td>Отличная поддержка фронтенда</td>
+                <td>Платная</td>
+            </tr>
+        </table>
+    </details>
+
+</body>
+</html>
