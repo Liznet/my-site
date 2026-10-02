@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 40px 20px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    /* Сюда вставьте HEX-код из colorhunt */
+    background-color: #FFB4A2;
+    color: #112D4E;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    background: #DBE2EF;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #112D4E;
+    text-align: center;
+}
+
+h2 {
+    color: #3F72AF;
+    text-align: center;
+    font-weight: 400;
+}
+
+a {
+    color: #3F72AF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #112D4E;
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #F9F7F7;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 10px;
+}
